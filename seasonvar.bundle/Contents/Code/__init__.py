@@ -89,10 +89,10 @@ def MainMenu():
                 thumb=R(ICON_RU)),
 
             # English ABC category
-            DirectoryObject(
-                key=Callback(MenuEn, title=ABC_SELECT_EN),
-                title=ABC_SELECT_EN,
-                thumb=R(ICON_EN)),
+        #    DirectoryObject(
+        #        key=Callback(MenuEn, title=ABC_SELECT_EN),
+            #    title=ABC_SELECT_EN,
+            #    thumb=R(ICON_EN)),
 
             # Symbols category
             DirectoryObject(
@@ -101,16 +101,16 @@ def MainMenu():
                 thumb=R(ICON_OTHER)),
 
             # Latest category
-            DirectoryObject(
-                key=Callback(MenuLatest, title=LATEST_SERIALS),
-                title=LATEST_SERIALS,
-                thumb=R(ICON_LATEST)),
+            #DirectoryObject(
+            #    key=Callback(MenuLatest, title=LATEST_SERIALS),
+            #    title=LATEST_SERIALS,
+            #    thumb=R(ICON_LATEST)),
 
             # Bookmarks category
-            DirectoryObject(
-                key=Callback(MenuBookmarks, title=BOOKMARK),
-                title=BOOKMARK,
-                thumb=R(ICON_BOOKMARKS)),
+            #DirectoryObject(
+            #    key=Callback(MenuBookmarks, title=BOOKMARK),
+            #    title=BOOKMARK,
+            #    thumb=R(ICON_BOOKMARKS)),
 
             # Search category (Only visible on TV)
             InputDirectoryObject(
