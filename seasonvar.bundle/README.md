@@ -1,12 +1,9 @@
-Seasonvar Premium
+Seasonvar NON-Premium
 =================
 
 Plex media plugin for http://www.seasonvar.ru. Allows you to watch TV shows and as result - waste your life...
 
 
-
-Current version: 1.4
---------------------
 
 Installation
 ------------
